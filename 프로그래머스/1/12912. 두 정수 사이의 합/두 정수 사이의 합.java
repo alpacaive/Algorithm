@@ -9,8 +9,7 @@ class Solution {
         }
         
         for(int i = a; i <= b; i++) {
-            answer += a;
-            a++;
+            answer += i;
         }
         
         return answer;
