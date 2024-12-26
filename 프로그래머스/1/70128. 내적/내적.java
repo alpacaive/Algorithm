@@ -1,15 +1,8 @@
 class Solution {
-    public int solution(int[] a, int[] b) {
-        int length = 0;
-        if(a.length > b.length) {
-            length = a.length;
-        } else {
-            length = b.length;
-        }
-        
+    public int solution(int[] a, int[] b) {    
         int answer = 0;
         
-        for(int i = 0; i < length; i++ ) {
+        for(int i = 0; i < a.length; i++ ) {
             answer += a[i] * b[i];
         }
         
