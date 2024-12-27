@@ -12,9 +12,9 @@ class Solution {
         }
         
         List<Integer> result = list.stream()
-                                        .distinct()
-                                        .sorted()
-                                        .collect(Collectors.toList());
+                                    .distinct()
+                                    .sorted()
+                                    .collect(Collectors.toList());
         
         int[] answer = new int[result.size()];
         
