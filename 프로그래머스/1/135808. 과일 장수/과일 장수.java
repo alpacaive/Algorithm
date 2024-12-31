@@ -4,8 +4,8 @@ class Solution { // k = 최대점수, m = 한 상자에 들어가는 사과의 �
     public int solution(int k, int m, int[] score) {
         int answer = 0;
         
-        Arrays.sort(score); // 1 1 1 2 2 3 3 
-                            // 1 1 2 2 2 2 4 4 4 4 4 4
+        Arrays.sort(score); // 1 1 1 / (2) 2 3 3 
+                            // (1) 1 2 / (2) 2 2 / (4) 4 4 / (4) 4 4
         
         // 7-4=3   3-4=-1
         // 12-3=9   9-3=6   6-3=3   3-3=0
